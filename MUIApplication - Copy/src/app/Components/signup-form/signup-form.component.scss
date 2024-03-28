@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Optional: Add styles to the form if needed */
+  form {
+    width: max-content; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+  }
+  
+  /* Optional: Add styles to the form fields if needed */
+  mat-form-field {
+    height: 100%;
+    width: 50vh; /* Adjust the width of each form field */
+    margin-right: 10px; /* Add space between form fields */
+    input {
+        height: 60px;
+
+    }
+
+  }
+  
+  button {
+    width: 100%;
+  }
